@@ -14,6 +14,24 @@ const questionArray = [
     "Qual o livro mais vendido no mundo após a Bíblia:\n\n(A) O Senhor dos Anéis \n(B) Harry Potter \n(C) Dom Quixote \n(D) Um Conto de Duas Cidades \n",
     "Qual dos impérios a seguir não possui um idioma escrito:\n\n(A) Inca\n(B) Azteca\n(C) Egípcio\n(D) Romano\n",
     "Qual é o menor país do mundo:\n\n(A) Mônaco\n(B) Vaticano\n(C) Nauru\n(D) Ilhas Marshall\n",
+    "Qual é o animal nacional da Austrália:\n\n(A) Canguru vermelho\n(B) Koalas\n(C) Equidna\n(D) Ornitorrincos\n",
+    "Qual é a maior ilha do mundo:\n\n(A) Gronelândia\n(B) Madagáscar\n(C) Bornéu\n(D) Nova Guiné\n",
+    "Qual a capital do Canadá:\n\n(A) Montreal\n(B) Vancouver\n(C) Ottawa\n(D) Toronto\n",
+    "Qual é o rio mais longo do mundo:\n\n(A) Yangtzé\n(B) Mississippi\n(C) Nilo\n(D) Amazonas\n",
+    "Qual é a série de livros mais vendida do século 21:\n\n(A) O Senhor dos Anéis \n(B) Harry Potter \n(C) Dom Quixote \n(D) Um Conto de Duas Cidades \n",
+    "De qual cidade vieram os Beatles:\n\n(A) Bath\n(B) Brighton\n(C) Liverpool\n(D) Londres\n",
+    "Quantas teclas há em um piano clássico:\n\n(A) 93\n(B) 74\n(C) 91\n(D) 88\n",
+    "Quando a Netflix foi fundada:\n\n(A) 2015\n(B) 1997\n(C) 2009\n(D) 2001\n",
+    "Qual foi a série mais assistida da Netflix em 2019:\n\n(A) La casa de papel\n(B) Round 6\n(C) Stranger Things\n(D) Bird Box\n",
+    "Qual o filme com maior bilheteria no mundo:\n\n(A) Avatar\n(B) Star Wars: The Force Awakens\n(C) Titanic\n(D) Avengers: Endgame\n"
 ]
-const answerArray = ["D", "A", "D", "B", "D", "A", "B", "B", "D", "A", "C", "C", "C", "A", "B"]
-export{questionArray, answerArray}
+const answerArray = ["D", "A", "D", "B", "D", "A", "B", "B", "D", "A", "D", "C", "C", "A", "B", "A", "A", "C", "C", "B", "C", "D", "B", "A"]
+// export{questionArray, answerArray}
+
+let l = 0
+for (let i = 0; i < answerArray.length; i++) {
+    if (answerArray[i] === "B") {
+        l++
+    }
+}
+console.log(l)
