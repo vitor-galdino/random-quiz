@@ -25,5 +25,6 @@ const questionArray = [
     "Qual foi a série mais assistida da Netflix em 2019:\n\n(A) La casa de papel\n(B) Round 6\n(C) Stranger Things\n(D) Bird Box\n",
     "Qual o filme com maior bilheteria no mundo:\n\n(A) Avatar\n(B) Star Wars: The Force Awakens\n(C) Titanic\n(D) Avengers: Endgame\n"
 ]
-const answerArray = ["D", "A", "D", "B", "D", "A", "B", "B", "D", "A", "D", "C", "C", "A", "B", "A", "A", "C", "C", "B", "C", "D", "B", "A"]
-export{questionArray, answerArray}
+const answerArray = ["D", "A", "D", "B", "D", "A", "B", "B", "D", "A", "D", "C", "C", "A", "B", "A", "A", "C", "C", "B", "C", "D", "B", "C", "A"]
+// export{questionArray, answerArray}
+console.log(questionArray.length)
