@@ -26,12 +26,4 @@ const questionArray = [
     "Qual o filme com maior bilheteria no mundo:\n\n(A) Avatar\n(B) Star Wars: The Force Awakens\n(C) Titanic\n(D) Avengers: Endgame\n"
 ]
 const answerArray = ["D", "A", "D", "B", "D", "A", "B", "B", "D", "A", "D", "C", "C", "A", "B", "A", "A", "C", "C", "B", "C", "D", "B", "A"]
-// export{questionArray, answerArray}
-
-let l = 0
-for (let i = 0; i < answerArray.length; i++) {
-    if (answerArray[i] === "B") {
-        l++
-    }
-}
-console.log(l)
+export{questionArray, answerArray}
