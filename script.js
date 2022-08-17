@@ -4,9 +4,9 @@ let questionNum = 1
 let countQuestion = 0
 let score = 0
 
-const maxTime = parseInt(prompt("Bem vindo ao Quiz ! Entre 2 a 15, deseja responder quantas questões:\n"))
-if (maxTime < 2 || maxTime > 15) {
-    alert("Escolha inválida ! Escolha um número entre 2 a 15.")
+const maxTime = parseInt(prompt("Bem vindo ao Quiz ! Entre 2 a 25, deseja responder quantas questões:\n"))
+if (maxTime < 2 || maxTime > 25) {
+    alert("Escolha inválida ! Escolha um número entre 2 a 25.")
     maxTime = undefined
 }
 for (let i = 0; i < maxTime; i++) {
