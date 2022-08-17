@@ -26,5 +26,4 @@ const questionArray = [
     "Qual o filme com maior bilheteria no mundo:\n\n(A) Avatar\n(B) Star Wars: The Force Awakens\n(C) Titanic\n(D) Avengers: Endgame\n"
 ]
 const answerArray = ["D", "A", "D", "B", "D", "A", "B", "B", "D", "A", "D", "C", "C", "A", "B", "A", "A", "C", "C", "B", "C", "D", "B", "C", "A"]
-// export{questionArray, answerArray}
-console.log(questionArray.length)
+export{questionArray, answerArray}
