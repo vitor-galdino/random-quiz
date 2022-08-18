@@ -1,4 +1,4 @@
-import {questionArray, answerArray}  from "./questions.js"
+import { questionArray, answerArray } from "./questions.js"
 
 let questionNum = 1
 let countQuestion = 0
@@ -25,7 +25,9 @@ for (let i = 0; i < maxTime; i++) {
 }
 const avg = score / maxTime
 
-if (score >= 1) {
+if (avg % 1 === 0 && score >= 1) {
+    alert(`Parabéns, você acertou ${countQuestion}/${maxTime} questões e teve uma média de ${Math.trunc(avg)}.`)
+} else if (avg % 1 !== 0 && score >= 1) {
     alert(`Parabéns, você acertou ${countQuestion}/${maxTime} questões e teve uma média de ${avg.toFixed(2)}.`)
 } else {
     alert("Infelizmente você não acertou nenhuma questão. Tente novamente !")
